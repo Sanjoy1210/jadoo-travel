@@ -1,0 +1,58 @@
+/* =============================
+        Large Screen Media
+================================*/
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+    /* .nav-menu {
+        display: none;
+    } */
+    .intro-text {
+        max-width: 100%;
+    }
+}
+
+/* =============================
+        Tablet Media Query
+================================*/
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+    .hero-section {
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+    .brands {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+/* =============================
+        Mobile Responsive
+================================*/
+@media screen and (max-width: 768px) {
+    .intro-text {
+        width: 100%;
+    }
+    .intro-text h1 {
+        font-size: 54px;
+    }
+
+    .subscribe-section .container {
+        padding: 35px;
+    }
+
+    .subscribe-section h2 {
+        width: 100%;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
