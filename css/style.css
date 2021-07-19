@@ -10,15 +10,23 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Volkhov', serif;
 }
+
 h3 {
-    font-family: 'Open Sans', sans-serif;
+    color: #DF6951;
+    text-transform: uppercase;
 }
+
 .container {
-    width: 80%;
-    margin: 0 auto;
+    max-width: 1160px;
+    margin: auto;
 }
 
 /* ===============================
@@ -28,23 +36,99 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 24px 0;
+    font-weight: 600;
+    color: #212832;
 }
 
 .menu-bar {
     font-family: 'Noto Sans KR', sans-serif;
 }
-.menu {
+.nav-menu {
     display: flex;
-}
-
-.menu-item {
+    align-items: center;
     list-style: none;
 }
 
-.menu-item:not(:last-child) {
-    margin-right: 15px;
+.menu-item {
+    margin: 0 6px;
+    padding: 6px 16px;
 }
 
 .menu-link {
     text-decoration: none;
+}
+
+.sign-up {
+    border: 1px solid #212832;
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+
+/* ===============================
+        Hero Section style
+==================================*/
+.hero-section {
+    display: flex;
+    align-items: center;
+}
+.intro-text {
+    width: 100%;
+}
+.intro-text h1 {
+    color: #181E4B;
+    font-size: 84px;
+    line-height: 1;
+    letter-spacing: -4%;
+}
+
+.intro-image img {
+    width: 100%;
+}
+
+/* ===========================
+        Category Section
+==============================*/
+.category-section {
+    text-align: center;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+}
+
+.single-category {
+    cursor: pointer;
+    padding: 40px;
+    margin: 16px 10px;
+    border-radius: 36px;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+}
+
+.single-category:hover {
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+}
+
+/* =============================
+        Destination Section
+================================*/
+.destinations {
+    display: flex;
+    align-items: center;
+}
+
+.single-destination {
+    margin: 10px;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+}
+
+.single-destination img {
+    width: 100%;
+}
+
+.single-destination p {
+    padding: 0 16px 10px;
 }
