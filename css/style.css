@@ -132,3 +132,52 @@ h3 {
 .single-destination p {
     padding: 0 16px 10px;
 }
+
+/* ===============================
+        Brands Section Style
+==================================*/
+.brands {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.brand img {
+    width: 100%;
+}
+
+/* ===============================
+        Subscribe Section Style
+==================================*/
+.subscribe-section .container {
+    padding: 80px;
+    border-radius: 20px;
+    background: #DFD7F9 url("/images/subscribe/subscribe-decor-left.png") no-repeat bottom left;
+}
+
+.subscribe-section h2 {
+    font-family: 'Poppins', sans-serif;
+    width: 70%;
+    margin: auto;
+}
+
+.input-group {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.subscribe-section input {
+    padding: 15px 30px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+/* =================================
+        Footer Section Style
+====================================*/
+.footer-content {
+    display: flex;
+    padding: 40px 0;
+    justify-content: space-evenly;
+}
